@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="lang">gr</string>
+	<string name="app_name">Εξερευνώντας τη Θεσσαλονίκη</string>
+	<!-- activity titles -->
+	<string name="activity_main_title">Εξερευνώντας τη Θεσσαλονίκη</string>
+	<string name="title_activity_poi_list">Σημεία Ενδιαφέροντος</string>
+	<string name="title_activity_objective_list">Οι Στόχοι Μου</string>
+	<string name="title_activity_map">Χάρτης</string>
+	<string name="title_activity_achievement">Οι επιτυχίες μου</string>
+	<string name="title_activity_share">Κοινοποιήσε</string>
+	<!-- actions -->
+	<string name="action_settings">Ρυθμίσεις</string>
+	<string name="action_categories">Κατηγορίες</string>
+	<string name="action_filter">Φίλτρο</string>
+	<!-- errors -->
+	<string name="error_location">Παρουσιάστηκε σφάλμα κατα την ανάκτηση της τοποθεσίας σας</string>
+	<string name="error_location_service">Παρουσιάστηκε σφάλμα κατα την σύνδεση της τοποθεσίας</string>
+	<string name="error_gservices">Παρουσιάστηκε σφάλμα κατα την σύνδεση με google services</string>
+	<string name="error_geofences">Παρουσιάστηκε σφάλμα κατα την σύνδεση με google services, ο στόχος δεν θα ολοκληρωθεί αυτόματα</string>
+	<!-- intro text -->
+	<string name="intro_1_1">
+			Καλώς ήρθατε στο Quest for Thessaloniki! Ένα live παιχνίδι/τουριστικός οδηγός για όλους όσους επισκέπτονται την πανέμορφη πόλη μας..
+	</string>
+	<string name="intro_1_2">Στη συνέχεια θα σας δείξουμε πως να ολοκληρώσετε τους στόχους σας.</string>
+	<string name="intro_2_1">Υπάρχουν 2 τύποι στόχων στο παιχνίδι. Θα πρέπει να επισκευθείτε ένα Σημείο Ενδιαφέροντος να το βρείτε και να το σκανάρετε, με τα διάφορα QR codes(μέρος του ThessWiki Project) που παρέχει πληροφορίες για το Σημείο Ενδιαφέροντος που επισκευθήκατε, μέσω της ιστοσελίδας Wikipedia articles\n\n
+		Ορίζετε τα Σημεία Ενδιαφέροντος που θέλετε να επισκευθείτε επιλέγοντάς τα και τα ολοκληρώνετε ανοίγοντας τον χάρτη στο παιχνίδι, όταν θα είστε κοντά στην τοποθεσία τους.\n\n
+		Για να ολοκληρώσετε τους ThessWiki στόχους, χρησιμοποιήστε το QR scanner στο παιχνίδι και σκανάρετε, εάν υπάρχει,  τον  QR code και ο στόχος για το συγκεκριμένο Σημείο Ενδιαφέροντος αλλά και της ιστοσελίδας του θα ολοκληρωθεί μe ✓ στην λίστα σας.
+	</string>
+	<string name="intro_2_2">Εάν ο στόχος σας δεν ολοκληρωθεί αυτόματα τότε μπορείτε εσείς α τον ολοκληρώσετε χειροκίνητα επιλέγοντας τον στόχο και πατώντας ✓ … αλλά μην κλέψετε ;)</string>
+	<string name="intro_3_1">Υπάρχουν 3 τύποι Σημείων Ενδιαφέροντος αυτήν την στιγμή και νέοι θα προστεθούν αργότερα. Μπορείτε να επιλέξετε όποιον απο αυτούς θέλετε και θα προστεθεί στους στόχους σας.</string>
+	<string name="intro_3_2">Μπορείτε να δείτε την τοποθεσία τους στο χάρτη επιλέγοντας τα σχετικά εικονίδια για λεπτομέρειες.</string>
+	<string name="intro_4_1">Όταν ολοκληρώσετε έναν αναμενόμενο αριθμό στόχων μια επιβράβευση θα ξεκλειδώσει για σας!</string>
+	<string name="intro_4_2">Μοιραστείτε τις τελευταίες επιβραβεύσεις και εμπειρίες σας με τους φίλους σας!</string>
+	<string name="intro_5_1">Αυτός ο οδηγός αποτέλεσε την εισαγωγή του παιχνιδιού. Μπορείτε να συμβουλευτείτε ξανά τον οδηγό πατώντας το κουμπί info πάνω δεξιάτης κύριας οθόνης.</string>
+	<string name="intro_5_2">Ελπίζουμε να σας άρεσε το παιχνίδι/εφαρμογή τόσο όσο άρεσε σε εμάς να το υλοποιήσουμε :)</string>
+	<!-- other -->
+	<string name="img">img</string>
+	<string name="map">Χάρτης</string>
+	<string name="map_desc">Δείτε όλα τα Σημεία Ενδιαφέροντος και ολοκληρώστε τους στόχους σας!</string>
+	<string name="qrcode">QR code</string>
+	<string name="qrcode_desc">Ολοκληρώστε τους ThessWiki στόχους σας σκανάρωντάς τους με το  QR codes!</string>
+	<string name="myobjectives">Οι στόχοι μου</string>
+	<string name="objectives_desc">Δείτε τους επιλεγμένους στόχους σας</string>
+	<string name="pois">Σημεία Ενδιαφέροντος</string>
+	<string name="pois_desc">Δείτε τα διάφορα Σημεία Ενδιαφέροντος και προσθέστε τα σαν προσωπικούς σας στόχους!</string>
+	<string name="prompt1">Ολοκληρώστε τους στόχους σας!</string>
+	<string name="prompt2">Θέστε τους στόχους σας!</string>
+	<string name="prompt3">Δείτε και μοιραστείτε την πρόοδο σας!</string>
+	<string name="achievements">Επιβραβεύσεις</string>
+	<string name="achievements_desc">Δείτε τις επιβραβεύσεις που έχετε ξεκλειδώσει!</string>
+	<string name="share">Κοινοποίηση</string>
+	<string name="share_desc">Μοιραστείτε την πρόοδο σας με τους φίλους σας!</string>
+	<string name="empty"> </string>
+	<string name="info">Πληροφορίες</string>
+	<string name="more">Περισσότερες λεπτομέρειες</string>
+	<string name="description">Περιγραφή</string>
+	<string name="objective_added">Ο στόχος προστέθηκε!</string>
+	<string name="undo">Αναίρεση</string>
+	<string name="filter">Φίλτρο</string>
+	<string name="categories">Κατηγορίες</string>
+	<string name="objective_already_added">Ο στόχος έχει προστεθεί ήδη!</string>
+	<string name="qr_scanned">Σκανάρατε με επιτυχία το qr code για %s</string>
+	<string name="qr_scan_failed">Παρουσιάστηκε σφάλμα στο σκανάρισμα του Qr ή δεν είναι ThessWiki QR code!</string>
+	<string name="share_prompt">Μερικά απο τα μέρη που επισκεύθηκα…</string>
+	<string name="objective_complete">Στόχος ολοκληρώθηκε!</string>
+	<string name="objective_thesswiki_complete">Ολοκληρώθηκε ένας στόχος Thesswiki!</string>
+	<string name="objective_already_completed">Ο στόχος έχει ολοκληρωθεί ήδη!</string>
+	<string name="attention">Προσοχή</string>
+	<string name="objective_complete_prompt">Είστε έτοιμος/η να ολοκληρώσετε χειροκίνητα τον στόχο σας, συνέχεια ?</string>
+	<string name="ok">OK</string>
+	<string name="yes">ΝΑΙ</string>
+	<string name="no">ΟΧΙ</string>
+	<string name="achievement_unlocked">Η Επιβράβευση ξεκλειδώθηκε!</string>
+	<string name="title_activity_intro">Εισαγωγή</string>
+	<string name="lets_begin">Ας αρχίσουμε</string>
+	<string name="title_activity_about">Σχετικά</string>
+	<string name="sbout_message">Quest for Thessaloniki υλοποιήθηκε από:\n\n Νικόλαο Κυριμλίδι\nΙωάννη Γουγούση\nΝικόλαο Καστρινάκη\n\n για τον διαγωνισμό Apps4Thessaloniki Tourism Edition</string>
+	<string name="help">Βοήθεια</string>
+	<string name="help_message">Θα εμφανίσει την εισαγωγή που εμφανίστηκε κατα την πρώτη εκτέλεση της εφαρμογής</string>
+	<string
+		name="credits"><![CDATA[ 		<h4>Credits</h4> 		<b>Images</b><br> 		Laucher icon based on icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a><br> 		Smalln Flat icons By  <a href="https://www.iconfinder.com/paomedia" title="Paomedia">https://www.iconfinder.com/paomedia</a> licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a><br> 	    Banner image by <a href="http://www.discovergreece.com/en/mainland/macedonia/thessaloniki/thessaloniki-iconic-trademark-the-white-tower" title="DiscoverGreece">DiscoverGreece</a><br> 	    <b>Open source software used</b><br><br> 	    Butterknife<br> 		Glide<br> 		Circleimageview<br> 	   	Barcode Scanner Libraries for Android<br> 	   	Android SQLiteAssetHelper<br> 	    Icepick<br> 	]]></string>
+	<string name="no_achievements">Δεν έχετε ξεκλειδώσει καμία επιβράβευση ακόμα</string>
+
+</resources>

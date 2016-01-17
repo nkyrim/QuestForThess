@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="poi_types">
+		<item>ΜΝΗΜΕΙΑ</item>
+		<item>ΜΟΥΣΕΙΑ</item>
+		<item>ΠΕΡΚΑ - ΣΥΝΟΙΚΙΕΣ</item>
+	</string-array>
+
+	<string-array name="objective_types">
+		<item>ΣΕ</item>
+		<item>ThessWiki</item>
+	</string-array>
+
+	<string-array name="choice_filter">
+		<item>Εμφάνιση Όλων</item>
+		<item>Εμφάνιση κοντινών</item>
+		<item>Εμφάνιση των στόχων μου</item>
+	</string-array>
+
+	<string-array name="choice_categories">
+		<item>Όλα</item>
+		<item>Μνημεία</item>
+		<item>Μουσεία</item>
+		<item>Πάρκα - Συνοικίες</item>
+	</string-array>
+
+	<string-array name="intro_pages">
+		<item>ΚΑΛΩΣΗΡΘΑΤΕ</item>
+		<item>ΣΤΟΧΟΙ</item>
+		<item>ΣΗΜΕΙΑ ΕΝΔΙΑΦΕΡΟΝΤΟΣ</item>
+		<item>ΠΡΟΟΔΟΣ</item>
+		<item>ΤΕΛΟΣ</item>
+	</string-array>
+</resources>

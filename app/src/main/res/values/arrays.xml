@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="poi_types">
+		<item>MONUMENTS</item>
+		<item>MUSEUMS</item>
+		<item>PARKS - DISTRICTS</item>
+	</string-array>
+
+	<string-array name="objective_types">
+		<item>POIs</item>
+		<item>ThessWiki</item>
+	</string-array>
+
+	<string-array name="choice_filter">
+		<item>Show All</item>
+		<item>Show nearby</item>
+		<item>Show my objectives</item>
+	</string-array>
+
+	<string-array name="choice_categories">
+		<item>All</item>
+		<item>Monuments</item>
+		<item>Museums</item>
+		<item>Parks</item>
+	</string-array>
+
+	<string-array name="intro_pages">
+		<item>WELCOME</item>
+		<item>OBJECTIVES</item>
+		<item>POIS</item>
+		<item>PROGRESS</item>
+		<item>FINISH</item>
+	</string-array>
+</resources>

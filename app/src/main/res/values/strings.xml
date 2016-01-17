@@ -1,0 +1,97 @@
+<resources>
+	<string name="app_name">Quest for Thessaloniki</string>
+	<!-- activity titles -->
+	<string name="activity_main_title">Quest for Thessaloniki</string>
+	<string name="title_activity_poi_list">Points of Interest</string>
+	<string name="title_activity_objective_list">My Objectives</string>
+	<string name="title_activity_map">Map</string>
+	<string name="title_activity_achievement">My Achievements</string>
+	<string name="title_activity_share">Share</string>
+	<!-- actions -->
+	<string name="action_settings">Settings</string>
+	<string name="action_categories">Categories</string>
+	<string name="action_filter">Filter</string>
+	<!-- errors -->
+	<string name="error_location">Error while retrieving your location</string>
+	<string name="error_location_service">Error connecting to location service</string>
+	<string name="error_gservices">Error connecting to google services</string>
+	<string name="error_geofences">Error connecting to google services, automatic objective completion will not work</string>
+	<!-- intro text -->
+	<string name="intro_1_1">
+			Welcome to Quest for Thessaloniki! A live game/tourist guide for all who come to visit our beautiful city.
+	</string>
+	<string name="intro_1_2">Next we will guide through the ways that you can complete your quest.</string>
+	<string name="intro_2_1">There are 2 types of objectives in the game. Visiting a Point of interest and finding and scanning the various QR codes(part of the ThessWiki Project) that provide information about the site you visit through Wikipedia articles\n\n
+		You define the points of interest that you want to visit yourself by selecting them and complete them by opening the map in the game when you are close to their location.\n\n
+		To complete the ThessWiki objectives, use the QR scanner in the game and scan the QR code and the objective for this particular site will appear completed in your list.
+	</string>
+	<string name="intro_2_2">If the objective wont complete automatically you can complete it manually by selecting the objective and clicking the ✓ icon… but don\'t cheat ;)</string>
+	<string name="intro_3_1">There are 3 kinds of Points of interest at this moment and new ones will be added later on. You can select any of them to be added to your objectives.</string>
+	<string name="intro_3_2">You can view their location on the map by selecting the corresponding icon in the details.</string>
+	<string name="intro_4_1">When you complete a certain number of objectives an achievement will be unlocked!</string>
+	<string name="intro_4_2">Share your latest achievement with your friends!</string>
+	<string name="intro_5_1">This concludes the introduction of the game. You can revisit this guide by clicking the info button at the top right of the main screen.</string>
+	<string name="intro_5_2">We hope you enjoy the game/app as much as we enjoyed making it :)</string>
+	<!-- other -->
+	<string name="lang">en</string>
+	<string name="img">img</string>
+	<string name="map">Map</string>
+	<string name="map_desc">View all the points of interest and complete your objectives!</string>
+	<string name="qrcode">QR code</string>
+	<string name="qrcode_desc">Complete ThessWiki objectives by scanning the QR codes!</string>
+	<string name="myobjectives">My objectives</string>
+	<string name="objectives_desc">View the currently selected objectives</string>
+	<string name="pois">Points of Interest</string>
+	<string name="pois_desc">View the various POIs and add them as your objectives!</string>
+	<string name="prompt1">Complete your quest!</string>
+	<string name="prompt2">Set your objectives!</string>
+	<string name="prompt3">See and share your progress!</string>
+	<string name="achievements">Achievements</string>
+	<string name="achievements_desc">See the achievements you have unlocked!</string>
+	<string name="share">Share</string>
+	<string name="share_desc">Share your progress with your friends!</string>
+	<string name="empty"> </string>
+	<string name="info">Information</string>
+	<string name="more">More details</string>
+	<string name="description">Description</string>
+	<string name="objective_added">Objective added!</string>
+	<string name="undo">Undo</string>
+	<string name="filter">Filter</string>
+	<string name="categories">Categories</string>
+	<string name="objective_already_added">Objective already added!</string>
+	<string name="qr_scanned">You have successfully scanned the qr code for %s</string>
+	<string name="qr_scan_failed">Qr scan failed or isn\'t a ThessWiki code!</string>
+	<string name="share_prompt">Some of the places i visited…</string>
+	<string name="objective_complete">Objective completed!</string>
+	<string name="objective_thesswiki_complete">Thesswiki objective completed!</string>
+	<string name="objective_already_completed">Objective already completed!</string>
+	<string name="attention">Attention</string>
+	<string name="objective_complete_prompt">You are about to complete this objective manually, continue?</string>
+	<string name="ok">OK</string>
+	<string name="yes">YES</string>
+	<string name="no">NO</string>
+	<string name="achievement_unlocked">Achievement unlocked!</string>
+	<string name="title_activity_intro">Introduction</string>
+	<string name="lets_begin">Let\'s Begin!</string>
+	<string name="title_activity_about">About</string>
+	<string name="sbout_message">Quest for Thessaloniki was developed for the contest Apps4Thessaloniki Tourism Edition by:\n\n Nick Kyrimlidis\nJohn Gougousis\nNick Kastrinakis</string>
+	<string name="help">Help</string>
+	<string name="help_message">This will replay the introduction during the first run of the application</string>
+	<string name="credits">
+		<![CDATA[
+		<h4>Credits</h4>
+		<b>Images</b><br>
+		Laucher icon based on icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a><br>
+		Smalln Flat icons By  <a href="https://www.iconfinder.com/paomedia" title="Paomedia">https://www.iconfinder.com/paomedia</a> licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a><br>
+	    Banner image by <a href="http://www.discovergreece.com/en/mainland/macedonia/thessaloniki/thessaloniki-iconic-trademark-the-white-tower" title="DiscoverGreece">DiscoverGreece</a><br>
+	    <b>Open source software used</b><br><br>
+	    Butterknife<br>
+		Glide<br>
+		Circleimageview<br>
+	   	Barcode Scanner Libraries for Android<br>
+	   	Android SQLiteAssetHelper<br>
+	    Icepick<br>
+	]]>
+	</string>
+	<string name="no_achievements">You haven\'t unlocked any achievements yet</string>
+</resources>
