@@ -13,6 +13,6 @@ This application was created for the "Apps4Thessaloniki-Tourism Edition" contest
 Although the app hasn't actually been updated with new features since its creation in 2016 I have updated the code to build and work properly with a target API of 28(Pie)
 
 Project Team
-Nikolaos Kyrimlidis
-Ioannis Gougousis
-Nikolaos Kastrinakis
+- Nikolaos Kyrimlidis
+- Ioannis Gougousis
+- Nikolaos Kastrinakis
