@@ -22,12 +22,13 @@ import com.nkyrim.thessapp.ui.base.BaseRecyclerAdapter;
 
 import java.util.List;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class ObjectiveListFragment extends BaseFragment {
 	private static final String ARG_TYPE = "ARG_TYPE";
-	@Bind(R.id.list) RecyclerView list;
+    @BindView(R.id.list)
+    RecyclerView list;
 
 	public ObjectiveListFragment() {
 	}
@@ -43,7 +44,7 @@ public class ObjectiveListFragment extends BaseFragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		View view = inflater.inflate(R.layout.fragment_list, container, false);
-		ButterKnife.bind(this, view);
+        unbinder = ButterKnife.bind(this, view);
 
 		return view;
 	}
@@ -83,15 +84,15 @@ public class ObjectiveListFragment extends BaseFragment {
 		}
 
 		public class ObjectiveViewHolder extends RecyclerView.ViewHolder {
-			@Bind(R.id.container)
+            @BindView(R.id.container)
 			View container;
-			@Bind(R.id.tv1)
+            @BindView(R.id.tv1)
 			TextView tv1;
-			@Bind(R.id.tv2)
+            @BindView(R.id.tv2)
 			TextView tv2;
-			@Bind(R.id.img1)
+            @BindView(R.id.img1)
 			ImageView img1;
-			@Bind(R.id.img2)
+            @BindView(R.id.img2)
 			ImageView img2;
 			private ObjectivePoi p;
 
@@ -126,7 +127,6 @@ public class ObjectiveListFragment extends BaseFragment {
 			}
 
 			private void removeObjective(ObjectivePoi p) {
-				// TODO remove Geofences
 				DbHelper.deletePoiObjective(p.getPoi());
 				dataset.remove(p);
 				notifyDataSetChanged();
@@ -152,11 +152,11 @@ public class ObjectiveListFragment extends BaseFragment {
 		}
 
 		public class ObjectiveViewHolder extends RecyclerView.ViewHolder {
-			@Bind(R.id.container)
+            @BindView(R.id.container)
 			View container;
-			@Bind(R.id.tv1)
+            @BindView(R.id.tv1)
 			TextView tv1;
-			@Bind(R.id.tv2)
+            @BindView(R.id.tv2)
 			TextView tv2;
 			private ObjectiveQr p;
 

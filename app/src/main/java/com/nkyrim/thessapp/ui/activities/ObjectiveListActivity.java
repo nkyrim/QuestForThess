@@ -8,21 +8,20 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.View;
 
 import com.nkyrim.thessapp.R;
 import com.nkyrim.thessapp.ui.base.BaseActivity;
 import com.nkyrim.thessapp.ui.fragments.ObjectiveListFragment;
 
-import butterknife.Bind;
-import butterknife.ButterKnife;
+import butterknife.BindView;
 
 public class ObjectiveListActivity extends BaseActivity {
-	@Bind(R.id.pager) ViewPager viewPager;
-	@Bind(R.id.tabs) TabLayout tabs;
-	@Bind(R.id.fab) FloatingActionButton fab;
+    @BindView(R.id.pager)
+    ViewPager viewPager;
+    @BindView(R.id.tabs)
+    TabLayout tabs;
+    @BindView(R.id.fab)
+    FloatingActionButton fab;
 
 	@Override
 	protected int getLayoutResource() {
@@ -37,8 +36,7 @@ public class ObjectiveListActivity extends BaseActivity {
 		tabs.setupWithViewPager(viewPager);
 
 		fab.setOnClickListener((v -> {
-			Intent i = new Intent(this, PoiListActivity.class);
-			startActivity(i);
+            startActivity(new Intent(this, PoiListActivity.class));
 		}));
 	}
 

@@ -1,7 +1,6 @@
 package com.nkyrim.thessapp.ui.fragments;
 
 import android.os.Bundle;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,8 +10,6 @@ import com.nkyrim.thessapp.R;
 import com.nkyrim.thessapp.ui.base.BaseFragment;
 import com.nkyrim.thessapp.ui.util.Settings;
 
-import butterknife.Bind;
-import butterknife.ButterKnife;
 
 public class IntroFragment extends BaseFragment {
 	private static final String ARG_POS = "ARG_POS";
@@ -39,7 +36,7 @@ public class IntroFragment extends BaseFragment {
 		if(pos == 3) view = inflater.inflate(R.layout.fragment_intro_4, container, false);
 		if(pos == 4) {
 			view = inflater.inflate(R.layout.fragment_intro_5, container, false);
-			Button b = (Button) view.findViewById(R.id.btnBegin);
+            Button b = view.findViewById(R.id.btnBegin);
 			b.setOnClickListener(v -> {
 				Settings.setBoolean(Settings.Key.IS_FIRST_RUN, false);
 				getActivity().finish();

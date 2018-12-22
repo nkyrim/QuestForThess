@@ -1,46 +1,40 @@
 package com.nkyrim.thessapp.ui.activities;
 
-import android.app.Notification;
-import android.app.NotificationManager;
-import android.app.PendingIntent;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
-import android.support.v4.app.NotificationCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
-import android.text.format.DateFormat;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.nkyrim.thessapp.R;
-import com.nkyrim.thessapp.domain.Achievement;
-import com.nkyrim.thessapp.domain.AchievementType;
 import com.nkyrim.thessapp.domain.ObjectivePoi;
 import com.nkyrim.thessapp.domain.QuestController;
-import com.nkyrim.thessapp.persistence.DbHelper;
 import com.nkyrim.thessapp.ui.base.BaseActivity;
-import com.nkyrim.thessapp.ui.util.Settings;
-import com.nkyrim.thessapp.util.Constants;
 
-import java.util.Date;
-
-import butterknife.Bind;
+import butterknife.BindView;
 
 public class ObjectiveDetailActivity extends BaseActivity {
 	public static final String ARG_OBJECTIVE = "ARG_OBJECTIVE";
 
-	@Bind(R.id.fabCheck) FloatingActionButton fabCheck;
-	@Bind(R.id.fabMap) FloatingActionButton fabMap;
-	@Bind(R.id.banner) ImageView banner;
-	@Bind(R.id.tvDesc) TextView tvDesc;
-	@Bind(R.id.tvInfo) TextView tvInfo;
-	@Bind(R.id.tvRef) TextView tvRef;
+    @BindView(R.id.fabCheck)
+    FloatingActionButton fabCheck;
+    @BindView(R.id.fabMap)
+    FloatingActionButton fabMap;
+    @BindView(R.id.banner)
+    ImageView banner;
+    @BindView(R.id.tvDesc)
+    TextView tvDesc;
+    @BindView(R.id.tvInfo)
+    TextView tvInfo;
+    @BindView(R.id.tvRef)
+    TextView tvRef;
 
 	@Override
 	protected int getLayoutResource() {

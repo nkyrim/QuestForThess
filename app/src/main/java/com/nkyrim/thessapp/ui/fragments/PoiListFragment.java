@@ -14,7 +14,6 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.nkyrim.thessapp.R;
 import com.nkyrim.thessapp.domain.Poi;
-import com.nkyrim.thessapp.domain.QuestController;
 import com.nkyrim.thessapp.persistence.DbHelper;
 import com.nkyrim.thessapp.ui.activities.PoiDetailActivity;
 import com.nkyrim.thessapp.ui.base.BaseFragment;
@@ -22,12 +21,13 @@ import com.nkyrim.thessapp.ui.base.BaseRecyclerAdapter;
 
 import java.util.List;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class PoiListFragment extends BaseFragment {
 	private static final String ARG_TYPE = "ARG_TYPE";
-	@Bind(R.id.list) RecyclerView list;
+	@BindView(R.id.list)
+	RecyclerView list;
 
 	public PoiListFragment() {
 	}
@@ -43,7 +43,7 @@ public class PoiListFragment extends BaseFragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		View view = inflater.inflate(R.layout.fragment_list, container, false);
-		ButterKnife.bind(this, view);
+		unbinder = ButterKnife.bind(this, view);
 
 		int type = getArguments().getInt(ARG_TYPE);
 		List<Poi> poi = DbHelper.getPois(type, false);
@@ -55,7 +55,7 @@ public class PoiListFragment extends BaseFragment {
 	}
 
 	class PoiAdapter extends BaseRecyclerAdapter<Poi, PoiAdapter.PoiViewHolder> {
-		public PoiAdapter(List<Poi> dataset) {
+		PoiAdapter(List<Poi> dataset) {
 			super(dataset);
 		}
 
@@ -71,19 +71,24 @@ public class PoiListFragment extends BaseFragment {
 			holder.bind(p);
 		}
 
-		public class PoiViewHolder extends RecyclerView.ViewHolder {
-			@Bind(R.id.container) View container;
-			@Bind(R.id.tv1) TextView tv1;
-			@Bind(R.id.tv2) TextView tv2;
-			@Bind(R.id.img1) ImageView img1;
-			@Bind(R.id.img2) ImageView img2;
+		class PoiViewHolder extends RecyclerView.ViewHolder {
+			@BindView(R.id.container)
+			View container;
+			@BindView(R.id.tv1)
+			TextView tv1;
+			@BindView(R.id.tv2)
+			TextView tv2;
+			@BindView(R.id.img1)
+			ImageView img1;
+			@BindView(R.id.img2)
+			ImageView img2;
 
-			public PoiViewHolder(View v) {
+			PoiViewHolder(View v) {
 				super(v);
 				ButterKnife.bind(this, v);
 			}
 
-			public void bind(Poi p) {
+			void bind(Poi p) {
 				tv1.setText(p.getTitle());
 				tv2.setText(p.getDesc());
 				Glide.with(getActivity())

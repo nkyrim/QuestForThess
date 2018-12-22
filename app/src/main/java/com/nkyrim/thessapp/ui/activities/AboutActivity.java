@@ -4,9 +4,6 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.text.Html;
 import android.view.View;
 import android.widget.TextView;
@@ -14,11 +11,13 @@ import android.widget.TextView;
 import com.nkyrim.thessapp.R;
 import com.nkyrim.thessapp.ui.base.BaseActivity;
 
-import butterknife.Bind;
+import butterknife.BindView;
 
 public class AboutActivity extends BaseActivity {
-	@Bind(R.id.fab) FloatingActionButton fab;
-	@Bind(R.id.txtCredits) TextView txt;
+    @BindView(R.id.fab)
+    FloatingActionButton fab;
+    @BindView(R.id.txtCredits)
+    TextView txt;
 
 	@Override
 	protected int getLayoutResource() {

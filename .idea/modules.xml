@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ThessApp.iml" filepath="$PROJECT_DIR$/ThessApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QuestForThess.iml" filepath="$PROJECT_DIR$/QuestForThess.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

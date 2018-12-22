@@ -25,10 +25,11 @@
 
 # icepick
 -dontwarn icepick.**
+-keep class icepick.** { *; }
 -keep class **$$Icepick { *; }
 -keepnames class * { @icepick.State *;}
 -keepclasseswithmembernames class * {
-	@icepick.* <fields>;
+    @icepick.* <fields>;
 }
 
 # butterknife

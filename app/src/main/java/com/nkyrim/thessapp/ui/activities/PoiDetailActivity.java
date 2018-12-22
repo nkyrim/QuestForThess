@@ -15,16 +15,22 @@ import com.nkyrim.thessapp.domain.Poi;
 import com.nkyrim.thessapp.persistence.DbHelper;
 import com.nkyrim.thessapp.ui.base.BaseActivity;
 
-import butterknife.Bind;
+import butterknife.BindView;
 
 public class PoiDetailActivity extends BaseActivity {
 	public static final String ARG_POI = "ARG_POI";
-	@Bind(R.id.fabAdd) FloatingActionButton fabAdd;
-	@Bind(R.id.fabMap) FloatingActionButton fabMap;
-	@Bind(R.id.banner) ImageView banner;
-	@Bind(R.id.tvDesc) TextView tvDesc;
-	@Bind(R.id.tvInfo) TextView tvInfo;
-	@Bind(R.id.tvRef) TextView tvRef;
+    @BindView(R.id.fabAdd)
+    FloatingActionButton fabAdd;
+    @BindView(R.id.fabMap)
+    FloatingActionButton fabMap;
+    @BindView(R.id.banner)
+    ImageView banner;
+    @BindView(R.id.tvDesc)
+    TextView tvDesc;
+    @BindView(R.id.tvInfo)
+    TextView tvInfo;
+    @BindView(R.id.tvRef)
+    TextView tvRef;
 
 	@Override
 	protected int getLayoutResource() {

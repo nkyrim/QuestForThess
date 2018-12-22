@@ -1,25 +1,23 @@
 package com.nkyrim.thessapp.ui.activities;
 
+import android.os.Bundle;
 import android.support.design.widget.TabLayout;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.os.Bundle;
 
 import com.nkyrim.thessapp.R;
 import com.nkyrim.thessapp.ui.base.BaseActivity;
 import com.nkyrim.thessapp.ui.fragments.PoiListFragment;
 
-import butterknife.Bind;
-import butterknife.ButterKnife;
+import butterknife.BindView;
 
 public class PoiListActivity extends BaseActivity {
-	@Bind(R.id.pager) ViewPager viewPager;
-	@Bind(R.id.tabs) TabLayout tabs;
+    @BindView(R.id.pager)
+    ViewPager viewPager;
+    @BindView(R.id.tabs)
+    TabLayout tabs;
 
 	@Override
 	protected int getLayoutResource() {

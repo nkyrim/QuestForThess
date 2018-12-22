@@ -11,12 +11,14 @@ import android.support.v7.app.AppCompatActivity;
 import com.nkyrim.thessapp.R;
 import com.nkyrim.thessapp.ui.fragments.IntroFragment;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class IntroActivity extends AppCompatActivity {
-	@Bind(R.id.pager) ViewPager viewPager;
-	@Bind(R.id.tabs) TabLayout tabs;
+    @BindView(R.id.pager)
+    ViewPager viewPager;
+    @BindView(R.id.tabs)
+    TabLayout tabs;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

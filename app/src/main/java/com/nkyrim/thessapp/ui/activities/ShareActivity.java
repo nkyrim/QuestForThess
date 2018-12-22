@@ -24,12 +24,15 @@ import java.io.FileOutputStream;
 import java.util.Date;
 import java.util.List;
 
-import butterknife.Bind;
+import butterknife.BindView;
 
 public class ShareActivity extends BaseActivity {
-	@Bind(R.id.list) LinearLayout lv;
-	@Bind(R.id.tv1) TextView tv1;
-	@Bind(R.id.fab) FloatingActionButton fab;
+	@BindView(R.id.list)
+	LinearLayout lv;
+	@BindView(R.id.tv1)
+	TextView tv1;
+	@BindView(R.id.fab)
+	FloatingActionButton fab;
 
 	@Override
 	protected int getLayoutResource() {
@@ -54,9 +57,9 @@ public class ShareActivity extends BaseActivity {
 		for (ObjectivePoi o : list) {
 			if(i < 3 && o.getCompletedOn() != null) {
 				View v = getLayoutInflater().inflate(R.layout.row_share, null);
-				TextView tv1 = (TextView) v.findViewById(R.id.tv1);
-				TextView tv2 = (TextView) v.findViewById(R.id.tv2);
-				ImageView img1 = (ImageView) v.findViewById(R.id.img1);
+				TextView tv1 = v.findViewById(R.id.tv1);
+				TextView tv2 = v.findViewById(R.id.tv2);
+				ImageView img1 = v.findViewById(R.id.img1);
 				tv1.setText(o.getPoi().getTitle());
 				tv2.setText(o.getCompletedOn());
 				Glide.with(img1.getContext())
